@@ -10,7 +10,15 @@ public class SquareAndCircleChecker {
 
 //        TODO implements result
         String result = "";
-
+        double d = 2 * Math.sqrt(circleArea / Math.PI); // диаметр круга
+        double diag = Math.sqrt(2 * squareArea); // диагональ
+        if(diag < d) {
+            System.out.println("The square is in the circle");
+            result = "The square is in the circle";
+        }
+        else {
+                result = "The square is not in the circle";
+            }
         return result;
     }
 

@@ -43,7 +43,7 @@ public class MagnitudeCompareTest {
         double a = 3.5;
         double b = -3.5;
 
-        assertEquals(magnitudeChecker.getGreatestNumberByMagnitude(a, b), "The number 3.5 and -3.5 are equals by magnitude!");
+        assertEquals(magnitudeChecker.getGreatestNumberByMagnitude(a, b), "The numbers 3.5 and -3.5 are equals by magnitude!");
     }
 
 }

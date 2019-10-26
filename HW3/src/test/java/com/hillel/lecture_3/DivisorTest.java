@@ -14,8 +14,8 @@ public class DivisorTest {
 
     @Test
     public void checkThatNumberIsDivisor() {
-        int number = 2;
         int divisor = 10;
+        int number = 2;
 
         assertEquals(divisorChecker.checkDivisor(number, divisor), "The number 2 is divisor of the number 10");
     }

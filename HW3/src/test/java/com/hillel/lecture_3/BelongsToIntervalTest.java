@@ -6,7 +6,7 @@ import org.testng.annotations.Test;
 import static org.testng.Assert.assertEquals;
 
 /**
- * Проверить, принадлежит ли число введенное с клавиатуры, интервалу (-5;3).
+ * Проверить, принадлежит ли число введенное с клавиатуры, интервалу [-5;3].
  */
 
 public class BelongsToIntervalTest {
